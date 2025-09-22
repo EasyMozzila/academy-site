@@ -1,13 +1,8 @@
 body {
-  background: url('https://imgur.com/SUkHLng') no-repeat center center fixed;
+  background: url('images/bg.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: sans-serif;
   color: white;
   margin: 0;
   padding: 0;
-}
-nav a {
-  margin: 10px;
-  color: #fff;
-  text-decoration: none;
 }
