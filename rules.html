@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Правила</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Правила сообщества</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="news.html">Новости</a>
+      <a href="academy.html">Академия</a>
+      <a href="report.html">Жалоба-Тикет</a>
+    </nav>
+  </header>
+  <main>
+    <pre id="rules-content">Загрузка правил...</pre>
+  </main>
+
+  <script>
+    fetch('rules.txt')
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById('rules-content').textContent = text;
+      });
+  </script>
+</body>
+</html>
