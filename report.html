@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Жалоба-Тикет</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Форма жалобы</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="news.html">Новости</a>
+      <a href="academy.html">Академия</a>
+      <a href="rules.html">Правила</a>
+    </nav>
+  </header>
+  <main>
+    <pre id="report-content">Загрузка формы...</pre>
+  </main>
+
+  <script>
+    fetch('report.txt')
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById('report-content').textContent = text;
+      });
+  </script>
+</body>
+</html>
