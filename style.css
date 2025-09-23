@@ -58,8 +58,10 @@ article h2, article h3 {
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff
 }
 
 img {
