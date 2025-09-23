@@ -1,10 +1,19 @@
 body {
   background: url('images/bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-family: 'Crimson Text', serif;
+  font-variant: small-caps;
+  font-weight: 700;
   color: #ffffff;
   margin: 0;
   padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 header {
@@ -12,6 +21,7 @@ header {
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid #00ffff;
+  width: 100%;
 }
 
 header h1 {
@@ -41,39 +51,51 @@ nav a:hover {
 }
 
 main {
-  background-color: rgba(0, 0, 0, 0.5);
+  flex: 1;
   padding: 30px;
-  margin: 20px auto;
-  max-width: 800px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.sidebar {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #00ffff;
+  font-size: 1.2em;
+}
+
+.video-frame {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  margin-bottom: 20px;
 }
 
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.6em;
-  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-family: 'Crimson Text', serif;
   font-variant: small-caps;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 8px;
-}
-
-article {
-  margin-bottom: 30px;
-  padding: 15px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-left: 4px solid #00ffff;
-  border-radius: 5px;
-}
-
-article h2, article h3 {
-  margin-top: 0;
-  color: #00ffff;
 }
 
 img {
