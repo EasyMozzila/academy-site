@@ -1,7 +1,7 @@
 body {
   background: url('images/bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -11,27 +11,33 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   text-align: center;
+  border-bottom: 2px solid #00ffff;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.2em;
+  color: #00ffff;
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav a {
-  margin: 0 15px;
-  color: #00ffff;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: rgba(0, 255, 255, 0.2);
+  color: #ffffff;
   text-decoration: none;
+  border-radius: 5px;
   font-weight: bold;
-  font-size: 1.1em;
+  transition: background 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: rgba(0, 255, 255, 0.4);
 }
 
 main {
@@ -40,6 +46,19 @@ main {
   margin: 20px auto;
   max-width: 800px;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
 }
 
 article {
@@ -55,17 +74,9 @@ article h2, article h3 {
   color: #00ffff;
 }
 
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  font-size: 1.1em;
-  line-height: 1.6em;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff
-}
-
 img {
   max-width: 100%;
   border-radius: 5px;
   margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
 }
