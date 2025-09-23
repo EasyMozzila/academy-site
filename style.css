@@ -1,7 +1,7 @@
 body {
   background: url('images/bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Roboto', serif;
+  font-family: 'Georgia', serif;
   font-variant: small-caps;
   font-weight: 700;
   color: #ffffff;
@@ -92,7 +92,7 @@ pre {
   word-wrap: break-word;
   font-size: 1.2em;
   line-height: 1.6em;
-  font-family: 'Roboto', serif;
+  font-family: 'Georgia', serif;
   font-variant: small-caps;
   font-weight: 700;
   color: #ffffff;
