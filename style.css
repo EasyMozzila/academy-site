@@ -1,7 +1,10 @@
 body {
+  background: url('images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Roboto', sans-serif;
-}
-
+  text-transform: uppercase;
+  font-size: 0.95em;
+  letter-spacing: 0.05em;
   font-weight: 500;
   color: #ffffff;
   margin: 0;
@@ -91,8 +94,9 @@ pre {
   word-wrap: break-word;
   font-size: 1.2em;
   line-height: 1.6em;
-  font-family: 'Constantine', serif;
-  font-variant: all-small-caps;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-weight: 700;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
